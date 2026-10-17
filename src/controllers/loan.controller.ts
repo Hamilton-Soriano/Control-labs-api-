@@ -34,4 +34,8 @@ export class LoanController {
       message: `La aceptación del préstamo ${id} todavía no está implementada.`
     });
   };
-}
+}   
+
+// El error 501 Not Implemented indica que el servidor todavia no ha hecho la implementación de la funcionalidad solicitada. 
+// Es un código de estado HTTP que se utiliza para indicar que el servidor no puede cumplir con la solicitud porque no tiene la capacidad de hacerlo en ese momento. 
+// En este caso, se está utilizando para indicar que las operaciones relacionadas con los préstamos aún no han sido implementadas en el controlador.
